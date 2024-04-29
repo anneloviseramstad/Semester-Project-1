@@ -5,41 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="" content="" />
     <title>Community Science Museum | Home</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
+        <img src="images/logo.png" alt="Community Science Museum logo" />
         <ul>
-          <li>PLAN YOUR VISIT</li>
-          <li>EXHIBITS</li>
-          <li>ABOUT US</li>
-          <li>CONTACT</li>
-          <li>GIVE</li>
+          <li><a href="#">PLAN YOUR VISIT</a></li>
+          <li><a href="#">EXHIBITS</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">GIVE</a></li>
         </ul>
       </nav>
+      <label class="hamburger-menu">
+        <input type="checkbox" />
+      </label>
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li>PLAN YOUR VISIT</li>
+            <li>EXHIBITS</li>
+            <li>ABOUT US</li>
+            <li>CONTACT</li>
+            <li>GIVE</li>
+          </ul>
+        </nav>
+      </aside>
     </header>
     <main>
-      <section>
-        <h1>EXPLORE TOGETHER</h1>
-        <p>
-          Come join us at the Community Science Museum where we're committed to
-          making science accessible to all!
-        </p>
-        <p>FREE ENTRY TO THE MUSEUM</p>
-        <h2>OPENING HOURS:</h2>
-        <ul>
-          <li>Monday: Closed</li>
-          <li>Tuesday: 10:00-16:00</li>
-          <li>Wednesday: 10:00-16:00</li>
-          <li>Thursday: 10:00-16:00</li>
-          <li>Friday: 10:00-19:00</li>
-          <li>Saturday: 9:00-16:00</li>
-          <li>unday: 9:00-13:00</li>
-        </ul>
+      <img
+        class="header_image"
+        src="images/header_homepage.jpg"
+        alt="Picture of a teenager that wears virtual reality glasses while painting."
+      />
+      <section class="header_homepage">
+        <div>
+          <h1>EXPLORE TOGETHER</h1>
+          <p>
+            Come join us at the Community Science Museum where we're committed
+            to making science accessible to all!
+          </p>
+          <p>FREE ENTRY TO THE MUSEUM</p>
+        </div>
+        <div>
+          <h2>OPENING HOURS:</h2>
+          <ul>
+            <li>Monday: Closed</li>
+            <li>Tuesday: 10:00-16:00</li>
+            <li>Wednesday: 10:00-16:00</li>
+            <li>Thursday: 10:00-16:00</li>
+            <li>Friday: 10:00-19:00</li>
+            <li>Saturday: 9:00-16:00</li>
+            <li>unday: 9:00-13:00</li>
+          </ul>
+        </div>
       </section>
       <section>
         <h2>UPCOMING EVENTS</h2>
+        <img
+          src="images/event_1.jpg"
+          alt="Picture of an astronaut sitting inside a spaceship wearing a yellow suit"
+        />
         <article>
           <h3>Visiting Professor of Aeronautics</h3>
           <p>
@@ -49,6 +78,10 @@
             exciting ‘space’.
           </p>
         </article>
+        <img
+          src="images/event_2.jpg"
+          alt="Picture of the inside of a old museum with high ceiling, with an exhibition of an elephant."
+        />
         <article>
           <h3>Night in the Museum</h3>
           <p>
@@ -58,6 +91,10 @@
             wonders of science.
           </p>
         </article>
+        <img
+          src="images/event_3.jpg"
+          alt="Picture of a woman in a white coat wearing glasses, sitting besides a huge machine"
+        />
         <article>
           <h3>Energetica Exhibition on Loan</h3>
           <p>
@@ -71,6 +108,10 @@
         </article>
       </section>
       <section>
+        <img
+          src="images/accessibility_image.jpg"
+          alt="An icon image of a pair of hands holding three people."
+        />
         <article>
           <h3>Accessibility</h3>
           <p>
@@ -78,6 +119,10 @@
             guides and braille display signs for the visually impaired.
           </p>
         </article>
+        <img
+          src="images/foodanddrink_image.jpg"
+          alt="An icon image of a burger, a portion of fries and a cup with a straw"
+        />
         <article>
           <h3>Food and Drink</h3>
           <p>
@@ -85,6 +130,10 @@
             lunches, soft drinks, coffee, snacks and more.
           </p>
         </article>
+        <img
+          src="images/shop_image.jpg"
+          alt="An icon image of four shoppingbags in different colors"
+        />
         <article>
           <h3>Shop</h3>
           <p>
