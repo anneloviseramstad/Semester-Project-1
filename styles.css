@@ -1,4 +1,5 @@
-*,
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 *::after,
 *::before {
   box-sizing: border-box;
@@ -6,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -121,11 +122,16 @@ body {
 .navbar ul li a {
   color: #ffffff;
   text-decoration: none;
+  font-weight: 600;
 }
 
-.header_image {
+.background-image {
+  background-image: url(images/header_homepage.jpg);
   height: 80vh;
-  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .header_homepage {
@@ -152,4 +158,57 @@ ul {
 .header_homepage div ul {
   list-style: none;
   padding: 0;
+}
+
+.heading-events {
+  margin: 96px 96px 24px 96px;
+}
+.events,
+.homepage-information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 24px 96px;
+  margin-bottom: 96px;
+  gap: 16px;
+}
+
+.events img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 48px 96px;
+  background-color: rgba(221, 30, 193, 0.37);
+}
+
+footer li,
+footer a,
+footer ul {
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+  padding: 0;
+}
+
+footer h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-btn {
+  width: 200px;
+  background-color: #c917af;
+  color: #ffffff;
+  padding: 13px 43px;
+  font-size: 18px;
+  font-weight: 700;
 }
