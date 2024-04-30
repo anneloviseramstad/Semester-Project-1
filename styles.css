@@ -10,6 +10,38 @@ body {
   margin: 0;
 }
 
+.exhibits-body {
+  background-color: #1c2627;
+}
+
+.exhibits-fullwidth {
+  margin-left: -96px;
+  margin-right: -96px;
+  width: 100vw;
+  height: auto;
+}
+
+.exhibits-images {
+  width: 100%;
+  height: auto;
+}
+
+.exhibits-content {
+  color: #ffffff;
+  margin-bottom: 96px;
+}
+
+.exhibits-content h1 {
+  font-weight: 400;
+  margin-bottom: 56px;
+  margin-top: 48px;
+}
+.exhibits-content h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+
 main {
   margin-left: 96px;
   margin-right: 96px;
@@ -476,30 +508,9 @@ form button:hover {
   padding: 0;
 }
 
-.cosmology-header,
-.cosmology-image {
-  margin-left: -96px;
-  margin-right: -96px;
-  width: 100vw;
-  height: auto;
-}
-
-.cosmology-body {
-  background-color: #1c2627;
-}
-
-.cosmology-content {
-  color: #ffffff;
-  margin-bottom: 96px;
-}
-
-.cosmology-content h1 {
-  font-weight: 400;
-  margin-bottom: 56px;
-  margin-top: 48px;
-}
-.cosmology-content h2 {
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: 64px;
+.ecology-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 48px 0;
 }
