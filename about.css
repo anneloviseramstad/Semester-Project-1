@@ -1,0 +1,16 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 56px;
+  margin-top: 56px;
+  margin-bottom: 96px;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+}
+
+.about-text p {
+  padding: 4px 0;
+}

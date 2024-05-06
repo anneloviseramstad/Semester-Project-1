@@ -1,0 +1,77 @@
+.support-header {
+  margin-left: -96px;
+  margin-right: -96px;
+  width: 100vw;
+  height: auto;
+}
+
+.support-container {
+  margin-top: 48px;
+  margin-bottom: 96px;
+}
+
+.support-columns {
+  margin-top: 83px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.donations,
+.volunteer,
+.internships {
+  background-color: #ebf5f6;
+  padding: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.internship-form {
+  width: 80%;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ebf5f6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #006775;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #ffffffee;
+  color: #000000;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #333;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #37818b;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}

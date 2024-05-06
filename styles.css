@@ -10,38 +10,6 @@ body {
   margin: 0;
 }
 
-.exhibits-body {
-  background-color: #1c2627;
-}
-
-.exhibits-fullwidth {
-  margin-left: -96px;
-  margin-right: -96px;
-  width: 100vw;
-  height: auto;
-}
-
-.exhibits-images {
-  width: 100%;
-  height: auto;
-}
-
-.exhibits-content {
-  color: #ffffff;
-  margin-bottom: 96px;
-}
-
-.exhibits-content h1 {
-  font-weight: 400;
-  margin-bottom: 56px;
-  margin-top: 48px;
-}
-.exhibits-content h2 {
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: 64px;
-}
-
 main {
   margin-left: 96px;
   margin-right: 96px;
@@ -220,7 +188,8 @@ ul {
   gap: 16px;
 }
 
-.events img {
+.events img,
+.homepage-information img {
   width: 100%;
   height: auto;
 }
@@ -228,14 +197,14 @@ ul {
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 48px 96px;
-  background-color: rgba(221, 30, 193, 0.37);
+  padding: 28px 96px;
+  background-color: #ededed;
 }
 
 footer li,
 footer a,
 footer ul {
-  font-size: 18px;
+  font-size: 14px;
   list-style: none;
   text-decoration: none;
   color: #000000;
@@ -243,7 +212,7 @@ footer ul {
 }
 
 footer h2 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -252,265 +221,17 @@ footer h2 {
   flex-direction: column;
 }
 
+.subscribe p {
+  font-size: 14px;
+}
+
 .subscribe-btn {
   width: 200px;
-  background-color: #c917af;
+  background-color: #c247b0;
   color: #ffffff;
-  padding: 13px 43px;
+  padding: 8px 32px;
   font-size: 18px;
   font-weight: 700;
-}
-
-.welcome-header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 96px 0;
-  gap: 24px;
-}
-
-.welcome-header__text {
-  width: 400px;
-}
-
-.welcome-header__text p {
-  padding-top: 24px;
-  font-size: 30px;
-}
-
-.welcome-header img {
-  width: 100%;
-  height: auto;
-}
-
-.welcome-information__container {
-  background-color: #f6f6f6;
-  margin: 0 -96px;
-}
-
-.welcome-information__price {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  margin: 24px 96px;
-  padding: 80px 100px;
-  font-size: 24px;
-}
-
-.explore-heading {
-  display: flex;
-  justify-content: center;
-  margin-top: 56px;
-  margin-bottom: 20px;
-  font-size: 32px;
-}
-
-.explore-container {
-  background-color: #f6f6f6;
-  padding: 32px 0;
-  margin: 0 -96px;
-}
-
-.explore-container h3 {
-  margin: 0 96px;
-  color: #008293;
-}
-
-.explore1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin: 32px 96px;
-}
-
-.explore1 img,
-.explore2 img {
-  width: 100%;
-  height: auto;
-}
-
-.explore-container2 {
-  margin-top: 40px;
-  margin-bottom: 96px;
-}
-
-.explore2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
-
-.exhibitions {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 24px;
-  row-gap: 64px;
-  margin-bottom: 96px;
-}
-
-.exhibitions img {
-  width: 100%;
-  height: auto;
-}
-
-.exhibitions h2 {
-  font-size: 24px;
-  margin-top: 12px;
-  margin-bottom: 0;
-}
-
-.exhibitions p {
+  border: none;
   margin-top: 8px;
-  margin-bottom: 24px;
-}
-
-.readmore-btn {
-  background-color: #c917af;
-  color: #ffffff;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  padding: 8px 40px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.about {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 56px;
-  margin-top: 56px;
-  margin-bottom: 96px;
-}
-
-.about-container img {
-  width: 100%;
-  height: auto;
-}
-
-.about-text p {
-  padding: 4px 0;
-}
-
-.contact-information {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-}
-
-.contact-information h2 {
-  font-weight: 400;
-  margin-bottom: 40px;
-}
-
-.contact-information h3 {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.contact-information li,
-.contact-information ul {
-  list-style: none;
-  font-size: 18px;
-  padding: 0;
-}
-
-.support-header {
-  margin-left: -96px;
-  margin-right: -96px;
-  width: 100vw;
-  height: auto;
-}
-
-.support-container {
-  margin-top: 48px;
-  margin-bottom: 96px;
-}
-
-.support-columns {
-  margin-top: 83px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-}
-
-.donations,
-.volunteer,
-.internships {
-  background-color: #ebf5f6;
-  padding: 12px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-}
-
-.internship-form {
-  width: 80%;
-  max-width: 1000px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #ebf5f6;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-}
-
-.container h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #006775;
-}
-
-form input,
-form textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  border: none;
-  background-color: #ffffffee;
-  color: #000000;
-}
-
-form input:focus,
-form textarea:focus {
-  outline: none;
-  box-shadow: 0 0 5px #333;
-}
-
-form button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #37818b;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-form button:hover {
-  background-color: #555;
-}
-
-.privacy-policy__content h3 {
-  font-size: 20px;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-
-.privacy-policy__content strong {
-  color: #3e3e3e;
-}
-
-.privacy-policy__content ul,
-.privacy-policy__content li {
-  list-style: none;
-  font-size: 18px;
-  padding: 0;
-}
-
-.ecology-images {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  margin: 48px 0;
 }

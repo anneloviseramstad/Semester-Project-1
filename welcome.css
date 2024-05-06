@@ -1,0 +1,77 @@
+.welcome-header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 96px 0;
+  gap: 24px;
+}
+
+.welcome-header__text {
+  width: 400px;
+}
+
+.welcome-header__text p {
+  padding-top: 24px;
+  font-size: 30px;
+}
+
+.welcome-header img {
+  width: 100%;
+  height: auto;
+}
+
+.welcome-information__container {
+  background-color: #f6f6f6;
+  margin: 0 -96px;
+}
+
+.welcome-information__price {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 24px 96px;
+  padding: 80px 100px;
+  font-size: 24px;
+}
+
+.explore-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.explore-container {
+  background-color: #f6f6f6;
+  padding: 32px 0;
+  margin: 0 -96px;
+}
+
+.explore-container h3 {
+  margin: 0 96px;
+  color: #008293;
+}
+
+.explore1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 32px 96px;
+}
+
+.explore1 img,
+.explore2 img {
+  width: 100%;
+  height: auto;
+}
+
+.explore-container2 {
+  margin-top: 40px;
+  margin-bottom: 96px;
+}
+
+.explore2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}

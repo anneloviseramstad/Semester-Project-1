@@ -1,0 +1,27 @@
+.contact-information {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.contact-information h2 {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.contact-information h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact-information img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-information li,
+.contact-information ul {
+  list-style: none;
+  font-size: 18px;
+  padding: 0;
+}
