@@ -12,14 +12,14 @@
 .exhibits-text {
   background-image: linear-gradient(to right, #1e1e1e, #008293);
   margin: 0 -96px;
-  padding: 48px;
+  padding: 48px 96px;
   color: #ffffff;
   margin-bottom: 96px;
 }
 
 .exhibits-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 64px;
   margin-bottom: 96px;
 }
@@ -36,4 +36,5 @@
 .exhibits-img {
   width: 100%;
   height: auto;
+  box-shadow: 0 0 15px #555;
 }

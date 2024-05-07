@@ -1,0 +1,50 @@
+.background-image {
+  background-image: url(images/header_homepage.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.header_homepage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: linear-gradient(to bottom, #1e1e1e, #008293);
+  margin: 0 -96px;
+  padding: 96px;
+  gap: 236px;
+}
+
+.header_homepage p,
+.header_homepage h2,
+ul {
+  font-size: 30px;
+}
+
+.header_homepage div {
+  color: #ffffff;
+}
+
+.header_homepage div ul {
+  list-style: none;
+  padding: 0;
+}
+
+.heading-events {
+  margin: 24px 0;
+}
+
+.events,
+.homepage-information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 24px 0;
+  margin-bottom: 96px;
+  gap: 16px;
+}
+
+.events img,
+.homepage-information img {
+  width: 100%;
+  height: auto;
+}

@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("./index.css");
+@import url("./welcome.css");
+@import url("./exhibitions.css");
+@import url("./about.css");
+@import url("./contact.css");
+@import url("./support.css");
+@import url("./exhibits.css");
+@import url("./legalterms.css");
 
 *::after,
 *::before {
@@ -141,57 +149,6 @@ p {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
-}
-
-.background-image {
-  background-image: url(images/header_homepage.jpg);
-  height: 80vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: right;
-}
-
-.header_homepage {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-image: linear-gradient(to bottom, #1e1e1e, #008293);
-  margin: 0 -96px;
-  padding: 96px;
-  gap: 236px;
-}
-
-.header_homepage p,
-.header_homepage h2,
-ul {
-  font-size: 30px;
-}
-
-.header_homepage div {
-  color: #ffffff;
-}
-
-.header_homepage div ul {
-  list-style: none;
-  padding: 0;
-}
-
-.heading-events {
-  margin: 24px 0;
-}
-
-.events,
-.homepage-information {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 24px 0;
-  margin-bottom: 96px;
-  gap: 16px;
-}
-
-.events img,
-.homepage-information img {
-  width: 100%;
-  height: auto;
 }
 
 footer {

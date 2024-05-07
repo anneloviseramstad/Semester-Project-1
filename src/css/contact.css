@@ -12,6 +12,12 @@
 .contact-information h3 {
   font-size: 18px;
   font-weight: 600;
+  margin: 0;
+  padding-top: 24px;
+}
+
+.contact-information p {
+  margin: 8px 0;
 }
 
 .contact-information img {
@@ -19,9 +25,9 @@
   height: auto;
 }
 
-.contact-information li,
 .contact-information ul {
   list-style: none;
   font-size: 18px;
   padding: 0;
+  margin: 8px 0;
 }
