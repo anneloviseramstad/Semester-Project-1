@@ -5,35 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="" content="" />
     <title>Community Science Museum | Welcome</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
   </head>
 
   <body>
     <header>
-      <nav class="navbar">
-        <img src="images/logo.png" alt="Community Science Museum logo" />
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="hamburger-icon"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
         <ul>
-          <li><a href="#">PLAN YOUR VISIT</a></li>
-          <li><a href="#">EXHIBITS</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">GIVE</a></li>
+          <li><a href="welcome.html">PLAN YOUR VISIT</a></li>
+          <li><a href="exhibitions.html">EXHIBITS</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="support.html">GIVE</a></li>
         </ul>
       </nav>
-      <label class="hamburger-menu">
-        <input type="checkbox" />
-      </label>
-      <aside class="sidebar">
-        <nav>
-          <ul>
-            <li>PLAN YOUR VISIT</li>
-            <li>EXHIBITS</li>
-            <li>ABOUT US</li>
-            <li>CONTACT</li>
-            <li>GIVE</li>
-          </ul>
-        </nav>
-      </aside>
     </header>
     <main>
       <section class="welcome-header">
@@ -45,10 +34,12 @@
           </p>
         </div>
         <img
+          class="welcome-tablet__image"
           src="images/welcome_header1.jpg"
           alt="Picture in red tones, of a child wearing VR glasses."
         />
         <img
+          class="welcome-desktop__image"
           src="images/welcome_header2.jpg"
           alt="Picture of a science lab with high ceiling."
         />
@@ -127,9 +118,12 @@
               create places of learning and exploring. Our team are on hand to
               give your students guided tours of the museum, teach them in our
               learning laboratory, and provide great video presentations that
-              will excite and inspire them. Please get in touch with us here to
-              find out more about our facilities and to arrange a time to bring
-              your students through for a visit.
+              will excite and inspire them.
+            </p>
+            <p>
+              Please get in touch with us here to find out more about our
+              facilities and to arrange a time to bring your students through
+              for a visit.
             </p>
           </div>
           <div>
@@ -141,9 +135,11 @@
             <p>
               Are you looking to get involved with our team of researchers and
               academics? Our museum offers various ways for you to use our
-              resources and contribute towards them. We have online records,
-              laboratory space, and a working relationship with a number of
-              universities around the country.
+              resources and contribute towards them.
+            </p>
+            <p>
+              We have online records, laboratory space, and a working
+              relationship with a number of universities around the country.
             </p>
           </div>
         </div>
@@ -153,11 +149,11 @@
       <div>
         <h2>QUICK LINKS</h2>
         <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Get Involved</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Terms and Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="support.html">Get Involved</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="terms.html">Terms and Conditions</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
         </ul>
       </div>
       <div>

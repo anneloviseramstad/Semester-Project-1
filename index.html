@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="" content="" />
     <title>Community Science Museum | Home</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/702cf43524.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <header>
-      <nav class="navbar">
-        <img src="images/logo.png" alt="Community Science Museum logo" />
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="hamburger-icon"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
         <ul>
           <li><a href="welcome.html">PLAN YOUR VISIT</a></li>
           <li><a href="exhibitions.html">EXHIBITS</a></li>
@@ -20,23 +27,9 @@
           <li><a href="support.html">GIVE</a></li>
         </ul>
       </nav>
-      <label class="hamburger-menu">
-        <input type="checkbox" />
-      </label>
-      <aside class="sidebar">
-        <nav>
-          <ul>
-            <li>PLAN YOUR VISIT</li>
-            <li>EXHIBITS</li>
-            <li>ABOUT US</li>
-            <li>CONTACT</li>
-            <li>GIVE</li>
-          </ul>
-        </nav>
-      </aside>
-      <div class="background-image"></div>
     </header>
     <main>
+      <div class="background-image"></div>
       <section class="header_homepage">
         <div>
           <h1>EXPLORE TOGETHER</h1>
@@ -44,8 +37,11 @@
             Come join us at the Community Science Museum where we're committed
             to making science accessible to all!
           </p>
-          <p>FREE ENTRY TO THE MUSEUM</p>
+          <p>FREE ENTRY TO THE MUSEUM.</p>
+          <p class="opening-hours__tablet">OPEN TUESDAY-SUNDAY</p>
+          <a href="welcome.html" class="welcome-button">FIND OUT MORE</a>
         </div>
+
         <div>
           <h2>OPENING HOURS:</h2>
           <ul>
@@ -63,7 +59,7 @@
       <section class="events">
         <div>
           <img
-            src="images/event_1.jpg"
+            src="images/event_1-tablet.jpg"
             alt="Picture of an astronaut sitting inside a spaceship wearing a yellow suit"
           />
           <article>
@@ -78,7 +74,7 @@
         </div>
         <div>
           <img
-            src="images/event_2.jpg"
+            src="images/event_2-tablet.jpg"
             alt="Picture of the inside of a old museum with high ceiling, with an exhibition of an elephant."
           />
           <article>
@@ -93,7 +89,7 @@
         </div>
         <div>
           <img
-            src="images/event_3.jpg"
+            src="images/event_3-tablet.jpg"
             alt="Picture of a woman in a white coat wearing glasses, sitting besides a huge machine"
           />
           <article>
@@ -109,10 +105,12 @@
           </article>
         </div>
       </section>
+      <h2 class="heading-events">MUSEUM INFORMATION</h2>
       <section class="homepage-information">
-        <div>
+        <div class="access-article">
           <img
-            src="images/accessibility_image.jpg"
+            class="information-img"
+            src="images/access.jpg"
             alt="An icon image of a pair of hands holding three people."
           />
           <article>
@@ -123,9 +121,10 @@
             </p>
           </article>
         </div>
-        <div>
+        <div class="food-article">
           <img
-            src="images/foodanddrink_image.jpg"
+            class="information-img"
+            src="images/food.jpg"
             alt="An icon image of a burger, a portion of fries and a cup with a straw"
           />
           <article>
@@ -136,9 +135,10 @@
             </p>
           </article>
         </div>
-        <div>
+        <div class="shop-article">
           <img
-            src="images/shop_image.jpg"
+            class="information-img"
+            src="images/shop.jpg"
             alt="An icon image of four shoppingbags in different colors"
           />
           <article>

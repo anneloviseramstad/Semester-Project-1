@@ -27,7 +27,7 @@
 .welcome-information__price {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 64px;
+  gap: 96px;
   margin: 24px 96px;
   padding: 80px 100px;
   font-size: 24px;
@@ -73,5 +73,56 @@
 .explore2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 96px;
+}
+
+@media (max-width: 1200px) {
+  .welcome-header__text h1 {
+    font-size: 30px;
+  }
+  .welcome-header__text p {
+    font-size: 24px;
+    padding-top: 0;
+  }
+  .welcome-header__text {
+    width: 300px;
+  }
+  .welcome-information__price,
+  .explore2 {
+    gap: 68px;
+  }
+}
+
+@media (max-width: 900px) {
+  .welcome-desktop__image {
+    display: none;
+  }
+  .welcome-tablet__image {
+    margin: 0px -16px;
+  }
+  .welcome-header {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+  .welcome-header__text {
+    width: 100%;
+  }
+  .welcome-header__text p {
+    font-size: 20px;
+  }
+  .welcome-information__container {
+    background-color: #ffffff;
+    margin: 0 -16px;
+  }
+  .welcome-information__price {
+    display: block;
+    padding: 0px;
+    margin: 24px 16px;
+    font-size: 24px;
+  }
+  .explore-heading {
+    font-size: 24px;
+  }
 }
