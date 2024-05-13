@@ -1,5 +1,5 @@
 .background-image {
-  background-image: url(https://anneloviseramstad.github.io/semester-project-anneloviseramstad/images/.header_homepage.jpg);
+  background-image: url(/images/header_homepage.jpg);
   background-color: #008293;
   height: 80vh;
   background-size: cover;
@@ -154,7 +154,7 @@ ul {
 
 @media (max-width: 600px) {
   .background-image {
-    height: 50vh;
+    height: 30vh;
   }
   .events div,
   .access-article {
@@ -181,7 +181,7 @@ ul {
 
 @media (max-width: 300px) {
   .background-image {
-    height: 30vh;
+    height: 20vh;
   }
   .header_homepage {
     padding: 24px 16px;
