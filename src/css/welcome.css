@@ -76,6 +76,10 @@
   gap: 96px;
 }
 
+.explore-img__tablet {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .welcome-header__text h1 {
     font-size: 30px;
@@ -124,5 +128,26 @@
   }
   .explore-heading {
     font-size: 24px;
+  }
+  .explore-container {
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0 -96px;
+  }
+  .explore1,
+  .explore2 {
+    display: block;
+  }
+  .explore-img__desktop {
+    display: none;
+  }
+  .explore-img__tablet {
+    display: block;
+    margin: -16px;
+    padding-bottom: 20px;
+  }
+  .explore1 div,
+  .explore2 div {
+    margin-bottom: 40px;
   }
 }

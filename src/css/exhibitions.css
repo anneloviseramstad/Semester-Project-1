@@ -11,6 +11,7 @@
   width: 100%;
   height: auto;
   border-radius: 4px;
+  box-shadow: 0 0 5px #acacac;
 }
 
 .exhibitions h2 {
@@ -23,6 +24,9 @@
   margin-top: 8px;
   margin-bottom: 24px;
 }
+.exhibitions-tablet {
+  display: none;
+}
 
 .readmore-btn {
   background-color: #c917af;
@@ -33,4 +37,44 @@
   text-decoration: none;
   font-size: 16px;
   border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .exhibitions {
+    column-gap: 30px;
+    row-gap: 32px;
+  }
+  .exhibitions h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .exhibitions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .exhibitions {
+    display: block;
+  }
+  .exhibitions-desktop {
+    display: none;
+  }
+  .exhibitions-tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .exhibitions-desktop {
+    display: block;
+  }
+  .exhibitions-tablet {
+    display: none;
+  }
+  .exhibitions div {
+    margin-bottom: 40px;
+  }
 }

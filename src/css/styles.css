@@ -19,19 +19,17 @@ body {
 }
 
 main {
-  margin-left: 96px;
-  margin-right: 96px;
-}
-
-@media (max-width: 901px) {
-  main {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
+  margin-bottom: 96px;
 }
 
 h1 {
   font-size: 34px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
 }
 
 p {
@@ -46,6 +44,13 @@ img {
 .page-container {
   margin-top: 80px;
   margin-bottom: 96px;
+}
+
+@media (max-width: 900px) {
+  .page-container {
+    margin-top: 40px;
+    margin-bottom: 56px;
+  }
 }
 
 header {

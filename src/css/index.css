@@ -11,9 +11,8 @@
   display: grid;
   grid-template-columns: 2fr 1.6fr;
   background-image: linear-gradient(to bottom, #1e1e1e, #008293);
-  margin: 0 -96px;
   padding: 64px 96px;
-  gap: 180px;
+  gap: 100px;
 }
 
 .header_homepage h1 {
@@ -49,7 +48,8 @@ ul {
 }
 
 .heading-events {
-  margin: 12px 0;
+  margin: 0 96px;
+  padding-top: 40px;
 }
 
 .opening-hours__tablet {
@@ -60,18 +60,14 @@ ul {
 .homepage-information {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 24px 0;
-  margin-bottom: 24px;
+  margin: 24px 96px;
   gap: 16px;
 }
 
-.events img,
-.homepage-information img {
-  width: 100%;
-  height: auto;
-}
-
 @media (max-width: 1200px) {
+  .background-image {
+    height: 70vh;
+  }
   .header_homepage p,
   .header_homepage h2,
   ul {
@@ -80,35 +76,34 @@ ul {
   .header_homepage h1 {
     font-size: 30px;
   }
-  .header_homepage {
-    gap: 150px;
-  }
 }
 
 @media (max-width: 900px) {
+  .background-image {
+    height: 60vh;
+  }
   .header_homepage {
     display: block;
-    margin: -16px;
     padding: 40px 16px;
     margin-bottom: 24px;
   }
+
   .header_homepage h2,
   .header_homepage ul {
     display: none;
   }
+
   .opening-hours__tablet {
     display: block;
     color: #ffffff;
     margin: 0;
     padding-bottom: 12px;
   }
-  .header_homepage p {
-    margin-bottom: 0;
-  }
+
   .welcome-button {
     display: inline-block;
     background-color: #b5179e;
-    padding: 10px 80px;
+    padding: 12px 80px;
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
@@ -120,63 +115,88 @@ ul {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     letter-spacing: -0.5px;
   }
+
+  .heading-events {
+    margin: 16px;
+  }
+
   .events,
   .homepage-information {
     display: flex;
     flex-direction: column;
+    margin: 0px 16px;
   }
+
   .events div,
-  .access-article {
+  .homepage-information div {
     background-color: #f1f1f1;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .food-article {
-    background-color: #f4f7f6;
-    margin-bottom: 48px;
-  }
-  .shop-article {
-    background-color: #e6ebe7;
-    margin-bottom: 48px;
-  }
+
   .events article,
   .homepage-information article {
     padding: 20px 16px;
   }
+
   .events article h3,
   .homepage-information article h3 {
     margin-top: 0;
   }
+
   .information-img {
-    width: 400px;
-    height: auto;
+    height: 400px;
+    width: auto;
   }
 }
 
 @media (max-width: 600px) {
+  .background-image {
+    height: 50vh;
+  }
   .events div,
   .access-article {
     margin-bottom: 24px;
   }
+
   .header_homepage p {
     font-size: 20px;
   }
+
   .welcome-button {
     padding: 10px 100px;
     font-weight: 600;
   }
-  .access-article article,
-  .food-article article,
-  .shop-article article {
-    padding-top: 0px;
+  .information-img {
+    height: 250px;
+    width: auto;
+  }
+  .heading-events {
+    padding-top: 16px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 300px) {
+  .background-image {
+    height: 30vh;
+  }
+  .header_homepage {
+    padding: 24px 16px;
+  }
+  .header_homepage h1 {
+    font-size: 28px;
+    margin-top: 0px;
+  }
   .header_homepage p {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 0px;
   }
   .welcome-button {
-    padding: 10px 0px;
+    padding: 10px 40px;
     font-size: 18px;
+    border-radius: 8px;
   }
 }
