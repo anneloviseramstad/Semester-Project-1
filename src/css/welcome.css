@@ -1,8 +1,12 @@
 .welcome-header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 96px 0;
+  margin: 96px;
   gap: 24px;
+}
+
+.welcome-h1 {
+  margin: 24px 0px;
 }
 
 .welcome-header__text {
@@ -14,14 +18,8 @@
   font-size: 30px;
 }
 
-.welcome-header img {
-  width: 100%;
-  height: auto;
-}
-
 .welcome-information__container {
   background-color: #f6f6f6;
-  margin: 0 -96px;
 }
 
 .welcome-information__price {
@@ -29,7 +27,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 96px;
   margin: 24px 96px;
-  padding: 80px 100px;
+  padding: 80px 96px;
   font-size: 24px;
 }
 
@@ -44,11 +42,10 @@
 .explore-container {
   background-color: #f6f6f6;
   padding: 32px 0;
-  margin: 0 -96px;
 }
 
 .explore-container h3 {
-  margin: 0 96px;
+  margin: 0px 96px;
   color: #008293;
 }
 
@@ -59,24 +56,22 @@
   margin: 32px 96px;
 }
 
-.explore1 img,
-.explore2 img {
-  width: 100%;
-  height: auto;
-}
-
 .explore-container2 {
-  margin-top: 40px;
-  margin-bottom: 96px;
+  margin: 0px 96px;
 }
 
 .explore2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 96px;
+  margin: 0;
 }
 
 .explore-img__tablet {
+  display: none;
+}
+
+.welcome-tablet {
   display: none;
 }
 
@@ -98,27 +93,31 @@
 }
 
 @media (max-width: 900px) {
-  .welcome-desktop__image {
+  .welcome-h1 {
+    margin: 24px 16px;
+  }
+
+  .welcome-desktop {
     display: none;
   }
-  .welcome-tablet__image {
-    margin: 0px -16px;
+  .welcome-tablet {
+    display: block;
   }
   .welcome-header {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 0px;
-    margin-bottom: 24px;
+    margin: 0px;
   }
   .welcome-header__text {
     width: 100%;
   }
   .welcome-header__text p {
     font-size: 20px;
+    padding: 0px 16px;
   }
   .welcome-information__container {
     background-color: #ffffff;
-    margin: 0 -16px;
+    margin: 0px;
   }
   .welcome-information__price {
     display: block;
@@ -128,26 +127,36 @@
   }
   .explore-heading {
     font-size: 24px;
+    margin-top: 56px;
   }
-  .explore-container {
+  .explore-container,
+  .explore-container2 {
     background-color: #ffffff;
     padding: 0px;
-    margin: 0 -96px;
+    margin: 0px 16px;
+  }
+
+  .explore-container h3 {
+    margin: 8px 0px;
   }
   .explore1,
   .explore2 {
     display: block;
+    margin: 0px;
   }
   .explore-img__desktop {
     display: none;
   }
   .explore-img__tablet {
     display: block;
-    margin: -16px;
+    margin: 0px;
     padding-bottom: 20px;
   }
   .explore1 div,
   .explore2 div {
     margin-bottom: 40px;
   }
+}
+
+@media (max-width: 600px) {
 }

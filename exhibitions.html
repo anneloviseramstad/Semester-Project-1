@@ -9,14 +9,17 @@
   </head>
 
   <body>
-    <header>
-      <input type="checkbox" id="menu-checkbox" />
-      <label for="menu-checkbox" class="hamburger-icon"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
-      <nav>
-        <ul>
-          <li><a href="welcome.html">PLAN YOUR VISIT</a></li>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+      </div>
+      <nav class="navigation">
+        <input type="checkbox" class="toggle-menu" />
+        <div class="hamburger"></div>
+        <ul class="menu">
+          <li><a href="welcome.html">VISIT</a></li>
           <li><a href="exhibitions.html">EXHIBITS</a></li>
           <li><a href="about.html">ABOUT US</a></li>
           <li><a href="contact.html">CONTACT</a></li>
@@ -25,7 +28,7 @@
       </nav>
     </header>
     <main>
-      <section class="page-container">
+      <section>
         <h1>EXHIBITION SPACES</h1>
         <div class="exhibitions">
           <div>

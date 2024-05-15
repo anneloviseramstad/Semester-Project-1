@@ -1,9 +1,13 @@
+.exhibitions h1 {
+  margin: 96px;
+}
+
 .exhibitions {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 40px;
   row-gap: 64px;
-  margin-bottom: 96px;
+  margin: 0px 96px;
 }
 
 .exhibitions img {
@@ -52,12 +56,14 @@
 @media (max-width: 1000px) {
   .exhibitions {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0px 96px;
   }
 }
 
 @media (max-width: 900px) {
   .exhibitions {
     display: block;
+    margin: 16px;
   }
   .exhibitions-desktop {
     display: none;

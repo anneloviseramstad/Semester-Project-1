@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 56px;
-  margin-top: 56px;
-  margin-bottom: 96px;
+  margin: 56px 96px;
 }
 
 .about img {
@@ -13,4 +12,17 @@
 
 .about-text p {
   padding: 4px 0;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    margin: 20px 16px;
+    display: block;
+  }
 }

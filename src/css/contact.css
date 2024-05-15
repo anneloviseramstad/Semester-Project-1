@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  margin: 0px 96px;
 }
 
 .contact-information h2 {
@@ -20,14 +21,20 @@
   margin: 8px 0;
 }
 
-.contact-information img {
-  width: 100%;
-  height: auto;
-}
-
 .contact-information ul {
   list-style: none;
   font-size: 18px;
   padding: 0;
   margin: 8px 0;
+}
+
+@media (max-width: 900px) {
+  .contact-information {
+    display: block;
+    margin: 0px 16px;
+  }
+  .contact-img {
+    margin: 0px;
+    margin-top: 24px;
+  }
 }
