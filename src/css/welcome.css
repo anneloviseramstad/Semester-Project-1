@@ -75,6 +75,16 @@
   display: none;
 }
 
+.contact-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1200px) {
   .welcome-header__text h1 {
     font-size: 30px;
