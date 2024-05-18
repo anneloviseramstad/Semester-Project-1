@@ -37,6 +37,13 @@
   font-size: 16px;
 }
 
+@media (min-width: 1400px) {
+  .legal-terms {
+    margin: auto;
+    max-width: 1200px;
+  }
+}
+
 @media (max-width: 900px) {
   .legal-terms {
     margin: 0px 16px;

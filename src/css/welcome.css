@@ -85,6 +85,20 @@
   text-decoration: underline;
 }
 
+@media (min-width: 1400px) {
+  .welcome-header {
+    padding: 96px 0;
+  }
+  .welcome-header,
+  .welcome-information__price,
+  .explore1,
+  .explore2,
+  .explore-container h3 {
+    margin: auto;
+    max-width: 1200px;
+  }
+}
+
 @media (max-width: 1200px) {
   .welcome-header__text h1 {
     font-size: 30px;

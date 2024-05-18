@@ -2,6 +2,16 @@
   margin: 48px 96px 96px 96px;
 }
 
+@media (min-width: 1400px) {
+  .support-container {
+    margin: auto;
+    max-width: 1200px;
+  }
+  .support-desktop {
+    width: 100vw;
+  }
+}
+
 .support-columns {
   margin-top: 83px;
   display: grid;
@@ -15,6 +25,13 @@
   background-color: #ebf5f6;
   padding: 12px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+}
+
+.donations p,
+.volunteer p,
+.internships p {
+  font-size: 20px;
 }
 
 .internship-form {
@@ -38,6 +55,7 @@ form textarea {
   box-sizing: border-box;
   background-color: #ffffffee;
   color: #000000;
+  font-family: "Montserrat", sans-serif;
 }
 
 form textarea {

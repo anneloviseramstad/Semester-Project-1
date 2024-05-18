@@ -9,9 +9,12 @@
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.exhibits-text {
+.exhibits-background {
   background-image: linear-gradient(to right, #1e1e1e, #008293);
   margin: 0 -96px 96px -96px;
+}
+
+.exhibits-text {
   padding: 56px 96px;
   color: #ffffff;
 }
@@ -34,6 +37,14 @@
 
 .exhibits-img {
   box-shadow: 0 0 15px #555;
+}
+
+@media (min-width: 1400px) {
+  .exhibits-content,
+  .exhibits-text {
+    margin: auto;
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: 900px) {
