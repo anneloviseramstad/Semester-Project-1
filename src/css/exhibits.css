@@ -11,6 +11,7 @@
 
 .exhibits-background {
   background-image: linear-gradient(to right, #1e1e1e, #008293);
+  box-shadow: 0 0 15px #555;
   margin: 0 -96px 96px -96px;
 }
 

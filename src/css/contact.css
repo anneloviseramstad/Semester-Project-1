@@ -24,8 +24,14 @@
 .contact-information ul {
   list-style: none;
   font-size: 18px;
-  padding: 0;
+  padding: 0 12px 0 0;
   margin: 8px 0;
+}
+
+.contact-openinghours {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 1400px) {
@@ -43,5 +49,8 @@
   .contact-img {
     margin: 0px;
     margin-top: 24px;
+  }
+  .contact-openinghours {
+    grid-template-columns: 0.2fr 1fr;
   }
 }
