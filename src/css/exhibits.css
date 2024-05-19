@@ -41,13 +41,12 @@
     margin: auto;
     max-width: 1200px;
   }
-}
 
-.exhibits-h1 {
-  margin: 96px auto;
-  max-width: 1200px;
+  .exhibits-h1 {
+    margin: 96px auto;
+    max-width: 1200px;
+  }
 }
-
 @media (max-width: 900px) {
   .exhibits-h1 {
     margin: 56px 16px;
