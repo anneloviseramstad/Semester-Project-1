@@ -27,6 +27,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 64px;
+  padding-bottom: 0px;
 }
 
 .events-information {
@@ -72,6 +73,21 @@
   height: auto;
   width: 100%;
 }
+
+@media (min-width: 1400px) {
+  .events-content,
+  .events-heading,
+  .events-text,
+  .events-location {
+    margin: auto;
+    max-width: 1200px;
+  }
+  .events-h1 {
+    margin: 96px auto;
+    max-width: 1200px;
+  }
+}
+
 @media (max-width: 900px) {
   .events-content {
     display: block;
@@ -80,7 +96,7 @@
   .events-heading,
   .events-text,
   .events-location {
-    padding: 56px 16px;
+    padding: 24px 16px;
   }
   .events-h1 {
     margin: 56px 16px;
