@@ -1,10 +1,6 @@
-.exhibits {
-  margin: 96px;
-}
-
 .exhibits-h1 {
-  margin-top: 96px;
-  font-weight: 400;
+  margin: 96px;
+  font-weight: 600;
   letter-spacing: 1px;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
@@ -12,7 +8,6 @@
 .exhibits-background {
   background-image: linear-gradient(to right, #1e1e1e, #008293);
   box-shadow: 0 0 15px #555;
-  margin: 0 -96px 96px -96px;
 }
 
 .exhibits-text {
@@ -24,7 +19,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 64px;
-  margin-bottom: 96px;
+  padding: 96px;
 }
 
 .exhibits-information {
@@ -48,9 +43,14 @@
   }
 }
 
+.exhibits-h1 {
+  margin: 96px auto;
+  max-width: 1200px;
+}
+
 @media (max-width: 900px) {
   .exhibits-h1 {
-    margin: 40px 16px;
+    margin: 56px 16px;
   }
   .exhibits {
     margin: 16px;
@@ -59,16 +59,18 @@
     margin: 0 16px;
     padding: 56px 16px;
   }
+  .exhibits-background {
+    margin: -16px;
+  }
   .exhibits-information {
     background-color: #ffffff;
     color: #000000;
     box-shadow: none;
-    margin: 24px 16px;
-    padding: 0;
   }
   .exhibits-content {
     display: block;
     margin: 0px -16px;
+    padding: 0;
   }
   .exhibits-img {
     box-shadow: none;
